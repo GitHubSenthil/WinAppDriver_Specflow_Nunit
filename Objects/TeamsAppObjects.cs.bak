@@ -1,0 +1,70 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace TeamsWindowsApp.Objects
+{
+    public static class TeamsAppObjects
+    {
+        /*
+         * Info: Object Repository
+         * Description: Applicaiton related elements to be stored here in variables
+         * Naming convention:Variable to be declared as <typeofElementIdentificaiton>_<preferedObjectName> EX:id_testObject
+        */
+        
+        /* Page: TeamLogin Page
+         * Added by: Senthil (23/02/2022)
+         * Updated by:
+         * Update description:
+         */
+
+        //Login Page - List Item to select the user
+        public static string xpath_UserSelection = "//ListItem[contains(@Name,'#USER#')]";
+        public static string xpath_LoadingPane = "//Pane[@Name=\"Loading Microsoft Teams\"]";
+        
+        //Team App - Profile Icon
+        public static string xpath_profileIcon = "//*[contains(@Name,'Profile')]";
+        //Teams App - Toolbar
+        public static string xpath_LeftActivityToolbarSelection = "//List/ListItem/Button[@Name=\"Activity Toolbar\"]";
+        public static string xpath_SignOut = "//Button[@Name=\"Sign out of Microsoft Teams\"]";
+        public static string name_SignOut = "Sign out of Microsoft Teams";
+
+        /* Page: ChatWindow
+         * Added by: Senthil (23/02/2022)
+         * Updated by:
+         * Update description:
+         */
+
+        //Search toolbar
+        public static string xpath_SearchToolbar = "//Edit[@Name=\"Search\"][@AutomationId=\"control-input\"]";
+        public static string xpath_SearchField = "//Edit[@AutomationId=\"searchInputField\"]";
+        public static string xpath_SearchAutolist = "//ListItem[starts-with(@AutomationId,\"autosuggest-id-\")]//Button[contains(@Name,'#USER#')]";
+        public static string xpath_Chat_EditField = "//Group[@Name=\"Compose\"]//Edit[@Name=\"Type a new message\"]";
+        public static string xpath_Chat_SendButton = "//Toolbar[@Name=\"Send\"]/Button[@Name=\"Send\"]";
+        public static string xpath_Chat_MessageContent = "//List[@Name =\"Chat content\"]";
+        public static string xpath_Chat_SentMessgae = "//Group[starts-with(@Name,\"Sent\")]//Text";
+
+        //Chat
+        public static string xpath_Chat_Toolbar = "//Button[@Name =\"Chat Toolbar more options\"]";
+        public static string xpath_Chat_Menu = "//MenuItem[@Name =\"Chat list\"]";
+
+        /* Page: Team Login Page
+         * Added by: Takuya (23/02/2022)
+         * Updated by:
+         * Update description:
+         */
+
+        //Clicking the buttons in toolbar dynamically Ex: Chat, Activity, calls, etc
+        public static string xpath_Toolbar_MenuItem = "//Button[@Name=\"#FunctionTitle#\"]";
+        public static string xpath_MenuItem_Text = "//Text[@Name =\"#text#\"]";
+        public static string xpath_MenuItem_Group = "//Group[@Name=\"#text#\"]";
+
+        /* Page: ChatWindow
+         * Added by: Takuya (23/02/2022)
+         * Updated by:
+         * Update description:
+         */
+
+
+    }
+}

@@ -1,0 +1,16 @@
+﻿{
+
+  "bindingCulture": {
+    "name": "en-us"
+  },
+  "language": {
+    "feature": "en-us"
+  },
+  //Living Doc Report Generator
+  "livingDocGenerator": {
+    "enabled": true,
+    "filePath": "{CurrentDirectory}\\TestExecution_{ProcessId}_{ThreadId}_{Now:yyyy-MM-dd}.json"
+  }
+
+}
+

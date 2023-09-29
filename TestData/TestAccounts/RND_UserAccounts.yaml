@@ -1,0 +1,46 @@
+#RND User Test Accounts
+---
+userAccounts:
+- label: "user1"
+  userName: "m365ap01"
+  email: "hkguser.m365ap01@rnd.nomura.com"
+  password: "UGY3YjhkSEU="
+  fullName: "HKGUSER.M365AP01"
+  userType: Regulated
+
+- label: "user2"
+  userName: "m365ap02"
+  email: "hkguser.m365ap02@rnd.nomura.com"
+  password: "JDAybm9tdXJh"
+  fullName: "HKGUSER.M365AP02"
+  userType: Unregulated
+
+- label: "user3"
+  userName: "m365ap03"
+  email: "hkguser.m365ap03@rnd.nomura.com"
+  password: "aVlnMXpQcWw="
+  fullName: "HKGUSER.M365AP03"
+  userType: Regulated
+
+- label: "user4"
+  userName: "m365ap04"
+  email: "hkguser.m365ap04@rnd.nomura.com"
+  password: "ZkthT05JMlY="
+  fullName: "HKGUSER.M365AP04"
+  userType: Unregulated
+
+- label: "user5"
+  userName: "m365ap05"
+  email: "hkguser.m365ap05@rnd.nomura.com"
+  password: "cFcxNHcyeW8="
+  fullName: "HKGUSER.M365AP05"
+  userType: Regulated
+
+- label: "user6"
+  userName: "m365eu02"
+  email: "lonuser.m365eu02@rnd.nomura.com"
+  password: "dTdTWUtzRGM="
+  fullName: "LONUSER.M365EU02"
+  userType: Unregulated
+  
+  

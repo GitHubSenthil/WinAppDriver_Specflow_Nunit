@@ -1,0 +1,60 @@
+#MIB QA User Test Accounts
+
+- label: "UndefinedUser1"
+  userName: "m365eu02lon"
+  email: "lonuser.m365eu02@qa.nomura.com"
+  password: "Tm9tdXJhMjAyMyM="
+  fullName: "LONUSER.M365EU02"
+  userType: Unregulated
+
+- label: "UndefinedUser2"
+  userName: "m365eu04lon"
+  email: "lonuser.m365eu04@qa.nomura.com"
+  password: "Tm9tdXJhMjAyMyM="
+  fullName: "LONUSER.M365EU04"
+  userType: Unregulated
+
+- label: "JPIBDOUT1"
+  userName: "m365eu03lon"
+  email: "lonuser.m365eu03@qa.nomura.com"
+  password: "Tm9tdXJhMjAyMyM="
+  fullName: "LONUSER.M365EU03"
+  userType: Regulated
+
+- label: "GlobalIBDExJP1"
+  userName: "m365eu04lon"
+  email: "lonuser.m365eu04@qa.nomura.com"
+  password: "Tm9tdXJhMjAyMyM="
+  fullName: "LONUSER.M365EU04"
+  userType: Unregulated
+
+- label: "JPEQTResearch1"
+  userName: "m365eu05lon"
+  email: "lonuser.m365eu05@qa.nomura.com"
+  password: "Tm9tdXJhMTIz"
+  fullName: "LONUSER.M365EU05"
+  userType: Regulated
+
+  #User Password to be updated am03
+- label: "GlobalEQTExJP1"
+  userName: "m365am03nyc"
+  email: "nycuser.m365am03@qa.nomura.com"
+  password: "dTdTWUtzRGM="
+  fullName: "NYCUSER.M365AM03"
+  userType: Unregulated
+
+- label: "JPIBDIN1"
+  userName: "m365eu01lon"
+  email: "lonuser.m365eu01@qa.nomura.com"
+  password: "Tm9tdXJhQDEyMw=="
+  fullName: "LONUSER.M365EU01"
+  userType: Regulated
+
+- label: "JPIBDNCI1"
+  userName: "m365eu01lon"
+  email: "lonuser.m365eu01@qa.nomura.com"
+  password: "Tm9tdXJhQDEyMw=="
+  fullName: "LONUSER.M365EU01"
+  userType: Regulated
+  
+  

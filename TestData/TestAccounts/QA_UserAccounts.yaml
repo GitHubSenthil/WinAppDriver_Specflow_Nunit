@@ -1,0 +1,46 @@
+#QA User Test Accounts
+---
+userAccounts:
+- label: "user1"
+  userName: "m365eu01lon"
+  email: "lonuser.m365eu01@qa.nomura.com"
+  password: "Tm9tdXJhQDEyMw=="
+  fullName: "LONUSER.M365EU01"
+  userType: Regulated
+
+- label: "user2"
+  userName: "m365eu02lon"
+  email: "lonuser.m365eu02@qa.nomura.com"
+  password: "Tm9tdXJhMjAyMyM="
+  fullName: "LONUSER.M365EU02"
+  userType: Unregulated
+
+- label: "user3"
+  userName: "m365eu03lon"
+  email: "lonuser.m365eu03@qa.nomura.com"
+  password: "Tm9tdXJhMjAyMyM="
+  fullName: "LONUSER.M365EU03"
+  userType: Regulated
+
+- label: "user4"
+  userName: "m365eu04lon"
+  email: "lonuser.m365eu04@qa.nomura.com"
+  password: "Tm9tdXJhMjAyMyM="
+  fullName: "LONUSER.M365EU04"
+  userType: Unregulated
+
+- label: "user5"
+  userName: "m365eu05lon"
+  email: "lonuser.m365eu05@qa.nomura.com"
+  password: "Tm9tdXJhMTIz"
+  fullName: "LONUSER.M365EU05"
+  userType: Regulated
+
+- label: "user6"
+  userName: "m365eu06"
+  email: "lonuser.m365eu06@qa.nomura.com"
+  password: "dTdTWUtzRGM="
+  fullName: "LONUSER.M365EU06"
+  userType: Unregulated
+
+  
